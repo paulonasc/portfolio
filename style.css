@@ -1,0 +1,50 @@
+.logo-image {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+	position: relative;
+    color: inherit;
+    padding: .9375rem;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    line-height: 20px;
+}
+
+li {
+	list-style: none;
+}
+
+.card {
+	position: relative;
+	margin: 2%;
+	overflow: hidden;
+	width: 540px;
+	text-align: center;
+}
+
+.card img {
+	max-width: 100%;
+	-moz-transition: all 0.35s;
+	-webkit-transition: all 0.35s;
+	transition: all 0.35s;
+}
+
+.card:hover img{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.listcard {
+	display: inline-block;
+	padding: 15px;
+	padding-bottom: 40px;
+	text-align: center;
+}
